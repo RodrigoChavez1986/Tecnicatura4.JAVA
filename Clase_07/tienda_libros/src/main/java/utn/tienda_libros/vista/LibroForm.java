@@ -5,6 +5,7 @@ import utn.tienda_libros.servicio.LibroServicio;
 
 import javax.swing.*;
 
+@SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
 public class LibroForm extends JFrame {
     LibroServicio libroServicio;
     private JPanel panel;
